@@ -31,7 +31,7 @@ const ProductDetails = () => {
             }
         `;
 
-        console.log('GET_PRODUCT_DETAILS',GET_PRODUCT_DETAILS)
+
 
         client
             .query({ query: GET_PRODUCT_DETAILS, variables: { id } })
